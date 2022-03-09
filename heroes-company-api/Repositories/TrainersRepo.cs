@@ -85,5 +85,6 @@ namespace heroes_company_api.Repositories
         {
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+        //
     }
 }
